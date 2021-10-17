@@ -15,5 +15,6 @@ k = int(input('Количество элементов: '))
 for i in range(k):
     numbers.append(randint(-100, 100))
 print("Список в начале: ", numbers)
-print("Список после сортировки: ", numbers)
 sort_choice(numbers)
+print("Список после сортировки: ", numbers)
+
