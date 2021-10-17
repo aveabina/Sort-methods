@@ -11,6 +11,6 @@ numbers = []
 k = int(input('Количество элементов: '))
 for i in range(k):
     numbers.append(randint(-100, 100))
-print('Cписок в начале: ', numbers)
 sort_bubble(numbers)
+print('Cписок в начале: ', numbers)
 print("Список после сортировки: ", numbers)
