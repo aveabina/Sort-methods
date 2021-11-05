@@ -14,4 +14,4 @@ def sort_quick(numbers):
             left.append(numbers[i])
     print(sort_quick(left) + center + sort_quick(right))
 sort_quick([10,3,-4,55,-23,5,89,3,23,12,-45])
-print('Done')
+print('SORT DONE')
