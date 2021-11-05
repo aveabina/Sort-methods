@@ -13,5 +13,7 @@ def sort_quick(numbers):
         if numbers[i] < elem:
             left.append(numbers[i])
     print(sort_quick(left) + center + sort_quick(right))
-sort_quick([10,3,-4,55,-23,5,89,3,23,12,-45])
-print('SORT DONE')
+l = [10,3,-4,55,-23,5,89,3,23,12,-45]
+print('List before sort:', l)
+print('List after sort:')
+print(quick_sort(l))
